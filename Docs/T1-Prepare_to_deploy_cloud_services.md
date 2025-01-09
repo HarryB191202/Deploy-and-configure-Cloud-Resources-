@@ -1,5 +1,7 @@
 # Project Task 1: Prepare to Deploy Cloud Services
 
+# Task 1: Researching IaC And the Cloud
+
 ### 1. Benefits of Infrastructure as Code (IaC)
 Infrastructure as Code (IaC) introduces a revolutionary approach to managing and provisioning computing infrastructure through machine-readable definition files. It eliminates the need for manual processes by automating tasks that were traditionally labor-intensive. Two significant benefits, especially relevant to Argon Solutions, include:
 
