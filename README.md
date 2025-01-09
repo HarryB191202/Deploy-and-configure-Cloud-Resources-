@@ -178,5 +178,5 @@ New-AzSqlDatabase `
 ---
 
 ## Conclusion
-This project demonstrates the power of IaC in simplifying cloud resource management. By automating deployments, enhancing monitoring, and adhering to best practices, it offers a robust framework for scalable and secure cloud operations. Explore the repository and transform your cloud workflows today!
+This project demonstrates the power of IaC in simplifying cloud resource management. By automating deployments, enhancing monitoring, and adhering to best practices, it offers a robust framework for scalable and secure cloud operations. [Explore the repository](https://github.com/HarryB191202/Deploy-and-configure-Cloud-Resources-/blob/Harry's-Special-Corner/Docs/T1-Prepare_to_deploy_cloud_services.md) and transform your cloud workflows today!
 
