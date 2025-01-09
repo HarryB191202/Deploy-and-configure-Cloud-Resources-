@@ -1,0 +1,26 @@
+  "createdDate": "2023-06-14T00:58:08.145113+00:00",
+  "dailyRecurrence": {
+    "time": "2300"
+  },
+  "hourlyRecurrence": null,
+  "id": "/subscriptions/179c07db-6342-4e86-8ec3-d9d401badc5e/resourcegroups/hb001153227/providers/microsoft.devtestlab/schedules/shutdown-computevm-webdev001153227",
+  "location": "australiaeast",
+  "name": "shutdown-computevm-WebDev001153227",
+  "notificationSettings": {
+    "emailRecipient": null,
+    "notificationLocale": null,
+    "status": "Disabled",
+    "timeInMinutes": 0,
+    "webhookUrl": null
+  },
+  "provisioningState": "Succeeded",
+  "resourceGroup": "hb001153227",
+  "status": "Enabled",
+  "tags": null,
+  "targetResourceId": "/subscriptions/179c07db-6342-4e86-8ec3-d9d401badc5e/resourceGroups/HB001153227/providers/Microsoft.Compute/virtualMachines/WebDev001153227",
+  "taskType": "ComputeVmShutdownTask",
+  "timeZoneId": "UTC",
+  "type": "microsoft.devtestlab/schedules",
+  "uniqueIdentifier": "e729cbbe-c520-4363-8d97-ee4944cfb2ae",
+  "weeklyRecurrence": null
+}
