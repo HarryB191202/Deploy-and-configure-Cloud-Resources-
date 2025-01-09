@@ -127,9 +127,47 @@ New-AzSqlDatabase `
 ```
 📁 Deploy-and-Configure-Cloud-Resources
 ├── 📁 Code
-│   ├── vm-deploy.json
-│   ├── monitor-insights.json
-│   └── sql-deploy.ps1
+│   ├── 📁 T1
+|   |    |──📁 A2T1Q6BH_B
+|   |    |   |──A2T1Q6BH_B.ps1
+|   |    |   |──A2T1Q6BH_B.txt
+|   |    | 
+|   |    |──📁 A2T1Q6H_B
+|   |    |   |──A2T1Q6AavmHBrun.ps1
+|   |    |   |──A2T1Q6avmHB.json
+|   |    |   |──A2T1Q6avmHBpar.json
+|   |    | 
+|   |    |──📁 A2T1Q7H_B
+|   |        |──A2T1Q7-storage.json
+|   |        |──A2T1Q7-storageHB.json
+|   |        |──A2T1Q7-storageHB.ps1
+|   |
+│   ├── 📁 T2
+|   |    ├── 📁 A2T2Q1H_B
+|   |    |    ├──A2T2Q1runHB.ps1
+|   |    |    ├──A2T2Q1vmHB.json
+|   |    |    ├──A2T2Q1vmHBpar.json         
+|   |    | 
+|   |    |
+|   |    ├── 📁 A2T2Q2H_B
+|   |         ├──A2T2Q2autoshutHB.json
+|   | 
+|   | 
+│   ├── 📁 T4
+|         ├── 📁 A2T4Q1H_B
+|         |    ├──A2T4Q1-cosmodb.json
+|         |    ├──A2T4Q1-cosmodbHB.json
+|         |    ├──A2T4Q1-cosmodbrun.ps1
+|         |    ├──A2T4Q1-cosmodbrunHB.ps1
+|         |
+|         ├── 📁 A2T4Q2H_B
+|              ├──A2T4Q2-webapp.json
+|              ├──A2T4Q2-webappHB.json
+|              ├──A2T4Q2-webappHB.json
+|              ├──A2T4Q2-webappparamHB.json
+|              ├──A2T4Q2-webapprun.ps1
+|              ├──A2T4Q2-webapprunHB.ps1        
+|    
 ├── 📁 Docs
 │   ├── Deployment_Details.pdf
 │   ├── Monitoring_Logs.md
