@@ -169,9 +169,9 @@ New-AzSqlDatabase `
 |              ├──A2T4Q2-webapprunHB.ps1        
 |    
 ├── 📁 Docs
-│   ├── Deployment_Details.pdf
-│   ├── Monitoring_Logs.md
-│   └── Troubleshooting_Guide.md
+│   ├──T1-Prepare_to_deploy_cloud_resources.md
+│   ├──T2-Deploy_and_configure_cloud_resources.md 
+│   
 └── README.md
 ```
 
