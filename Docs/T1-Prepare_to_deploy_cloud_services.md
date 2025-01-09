@@ -57,7 +57,7 @@ The table below provides a detailed comparison of popular IaC services for Azure
 
 ---
 
-## Task 2: Confirm Cloud Requirements
+# Task 2: Confirm Cloud Requirements
 
 ### Cloud Resource Tasks
 Argon Solutions plans to deploy and configure the following resources to meet organizational needs:
