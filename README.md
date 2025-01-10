@@ -170,7 +170,8 @@ New-AzSqlDatabase `
 |    
 ├── 📁 Docs
 │   ├──T1-Prepare_to_deploy_cloud_resources.md
-│   ├──T2-Deploy_and_configure_cloud_resources.md 
+│   ├──T2-Deploy_and_configure_cloud_resources.md
+|   ├──T3-Documentation_post_cloud_deployment.md
 │   
 └── README.md
 ```
