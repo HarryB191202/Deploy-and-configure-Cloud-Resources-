@@ -55,6 +55,99 @@ The table below provides a detailed comparison of popular IaC services for Azure
 2. **CDMI**: Defines functional interfaces for cloud storage management, facilitating seamless data creation, retrieval, and updates.
 3. **DMTF’s OVF**: Promotes virtualization interoperability by standardizing infrastructure templates for IaaS environments.
 
+### 7. Preparing for Cloud Infrastructure Deployment
+
+#### Industry Technology Standards
+
+#### Reliability Standards
+
+1. **ISO/IEC 20000-1:2018**
+   - Specifies requirements for establishing, implementing, maintaining, and improving a service management system (SMS). It focuses on planning, design, transition, delivery, and improvement of services to deliver value. Applicable for:
+     - Customers requiring assurance about service quality.
+     - Organizations demonstrating planning and delivery capabilities.
+     - Training providers in service management.
+
+2. **ISO 22301:2019**
+   - Specifies requirements for business continuity management systems (BCMS). It helps organizations reduce disruptions, maintain product/service delivery, and improve resilience through:
+     - Implementing continuity measures.
+     - Ensuring conformity with stated policies.
+     - Enhancing resilience through effective BCMS application.
+
+#### Security Standards
+
+1. **ISO 27017:2015**
+   - Provides guidelines for information security controls in cloud services. Includes implementation guidance for:
+     - ISO/IEC 27002 controls.
+     - Additional controls specific to cloud services.
+
+2. **ISO 27002:2022**
+   - A comprehensive set of generic information security controls with guidance for organizations:
+     - Implementing ISMS based on ISO/IEC 27001.
+     - Developing specific security management guidelines.
+
+#### Cloud Infrastructure Management Standards
+
+1. **OCCI (Open Cloud Computing Interface)**
+   - Specifies protocols and APIs for deployment, scaling, monitoring, and management across IaaS, PaaS, and SaaS.
+
+2. **SNIA’s CDMI (Cloud Data Management Interface)**
+   - Defines functional interfaces for managing cloud storage, enabling data creation, retrieval, updates, and deletion.
+
+3. **DMTF’s OVF (Open Virtualization Format)**
+   - Enables virtual machine portability and policy-based management for IaaS.
+
+---
+
+### 8. Cloud Technologies: Purpose, Benefits, and Features
+
+| **Cloud Technology**            | **Purpose**                                                                                                                                          | **Benefits**                                                                                                                                                                     | **Features**                                                                                                                                                                     |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Virtual Machines (VMs)**       | A cloud virtual machine is the digital version of a physical computer that can run on the cloud.                                                    | - **Easy scalability**: Scale infrastructure based on load.                                                                               | - **Shared responsibility**: Disaster recovery handled by the cloud provider.                                                              |
+| **Container Services**           | Allows for applications to be more rapidly deployed, patched, or scaled. Encompasses containers as a service (CaaS).                                | - **Easy deployment/reduced cost**: Operates with minimal resources, enabling 2–3x more containers compared to VMs.                         | - **Increased portability**: Applications can run on multiple cloud operating systems and hardware platforms.                              |
+| **API Gateways**                 | Manages APIs for serverless applications and provides security, scalability, and monitoring.                                                         | - **Cloud-native**: Scalable and resilient for expanding cloud servers.                                                                   | - **Scalability and availability**: Efficiently distributes workload, improving user experience.                                           |
+| **Serverless Computing**         | Abstracts server management, allowing developers to focus on code without handling infrastructure.                                                   | - **Increase developer productivity**: Reduces operational overhead.                                                                      | - **Accuracy**: Developers focus on specific functions rather than backend architecture.                                                   |
+| **Load Balancing**               | Distributes network traffic across a pool of cloud resources.                                                                                        | - **Redundancy**: Provides built-in redundancy by rerouting traffic during server failures.                                               | - **Flexibility**: Enables maintenance without impacting site uptime.                                                                      |
+| **Autoscaling**                  | Automatically scales cloud services up or down based on traffic or utilization levels.                                                              | - **Ease of access**: Scale resources vertically or horizontally as needed.                                                              | - **Cost efficiency**: Pay only for resources when needed.                                                                                 |
+| **Managed Databases**            | Provides managed storage, data, and compute services.                                                                                               | - **Reduced maintenance**: Frees IT staff to focus on product design and application development.                                         | - **High availability**: Ensures reliable availability for critical applications.                                                          |
+| **DNS**                          | High-performance, resilient global Domain Name System (DNS) service.                                                                                | - **Global performance**: Accelerates DNS resolution via global Points of Presence (PoPs).                                               | - **Strong security**: Multi-layered trust and threat defense.                                                                             |
+| **Content Delivery Network (CDN)** | Distributes content from an origin server to global users by caching data close to their location.                                                   | - **Cost savings**: Reduces origin server workload and bandwidth costs.                                                                   | - **Performance**: Decreases load times by reducing file sizes and optimizing server infrastructure.                                       |
+| **Resource Logging**             | Creates ongoing records of cloud application events, including failures and state transformations.                                                  | - **Facilitates monitoring**: Centralized logs allow fast searches and visual monitoring of key metrics.                                   | - **Simplifies troubleshooting**: Automatic issue detection and alerting make troubleshooting faster and easier.                           |
+| **Monitoring**                   | Tracks metrics such as availability, response time, resource usage, and costs for cloud systems.                                                    | - **Cost optimization**: Resource usage tracking enables cost-saving adjustments.                                                         | - **Benchmarking**: Establishes performance baselines for infrastructure improvements.                                                     |
+| **Alerting Tools**               | Offers visibility into cloud system events and configurations with customizable policies.                                                            | - **Policy customization**: Tailor alerts for specific SLA breaches or performance issues.                                                | - **Increased security**: Detects threats, vulnerabilities, and misconfigurations instantly.                                               |
+
+---
+
+### 9. Resource Tasks
+
+#### Six Tasks for Deployment
+1. **Azure Insights**: Resource monitoring and diagnostics.
+2. **MySQL Databases**: Scalable database solutions.
+3. **File Storage**: Reliable data storage.
+4. **Web App Services**: Hosting and deploying applications.
+5. **Firewall**: Enhanced security against unauthorized access.
+6. **Virtual Machines**: Scalable computing resources.
+
+#### Replacement Services
+1. **File Storage**
+2. **SQL Databases (CosmoDB)**
+
+#### Policies and Procedures for Cloud Resources
+1. Deploy to the cloud first.
+2. Review environments before moving to production.
+3. Implement IaC to automate services.
+4. Use File Storage for data management.
+
+---
+
+### 10. Testing Techniques
+
+1. **Static and Style Checks**
+   - Verify readability, formatting, and variable naming.
+
+2. **System Tests**
+   - Validate workflows and unit file integrations.
+
+
 ---
 
 # Task 2: Confirm Cloud Requirements
