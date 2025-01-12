@@ -176,4 +176,4 @@ To confirm the deployment of cloud resources, the ICT Manager will be consulted.
 ---
 
 ## Conclusion
-This project emphasizes the strategic use of Infrastructure as Code and cloud automation to streamline resource deployment and management. By adhering to industry standards and implementing robust testing practices, Argon Solutions ensures secure, efficient, and scalable cloud operations. 
+This project emphasizes the strategic use of Infrastructure as Code and cloud automation to streamline resource deployment and management. By adhering to industry standards and implementing robust testing practices, Argon Solutions ensures secure, efficient, and scalable cloud operations. Please check out how ths solution was implemented [here!](https://github.com/HarryB191202/Deploy-and-configure-Cloud-Resources-/blob/Harry's-Special-Corner/Docs/T2-Deploy_and_configure_cloud_resources.md)
