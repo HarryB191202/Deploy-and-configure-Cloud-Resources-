@@ -1,4 +1,4 @@
-# Task 1: Deploy and Configure Cloud Resources
+#Project Task 2: Deploy and Configure Cloud Resources
 
 ### 1.  Argon Solutions have asked you to identify a list of tools they can use to help develop and automate their deployment of services in Azure Cloud.
 
